@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SaaS Acer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <main class="container">
+
+        <section class="card">
+
+            <h1>SaaS Acer</h1>
+
+            <p class="subtitle">
+                Analyze your SaaS growth foundation.
+            </p>
+
+
+            <form id="scoreForm">
+
+
+                <div class="question">
+
+                    <p>Do you have a landing page?</p>
+
+                    <label>
+                        <input type="radio" name="landing" id="landingYes">
+                        Yes
+                    </label>
+
+                    <label>
+                        <input type="radio" name="landing" id="landingNo">
+                        No
+                    </label>
+
+                </div>
+
+
+
+                <div class="question">
+
+                    <p>Do you post on social media?</p>
+
+                    <label>
+                        <input type="radio" name="social" id="socialYes">
+                        Yes
+                    </label>
+
+                    <label>
+                        <input type="radio" name="social" id="socialNo">
+                        No
+                    </label>
+
+                </div>
+
+
+
+                <div class="question">
+
+                    <p>Do you have an email list?</p>
+
+                    <label>
+                        <input type="radio" name="email" id="emailYes">
+                        Yes
+                    </label>
+
+                    <label>
+                        <input type="radio" name="email" id="emailNo">
+                        No
+                    </label>
+
+                </div>
+
+
+
+                <div class="question">
+
+                    <p>Do you know your target audience?</p>
+
+                    <label>
+                        <input type="radio" name="target" id="targetYes">
+                        Yes
+                    </label>
+
+                    <label>
+                        <input type="radio" name="target" id="targetNo">
+                        No
+                    </label>
+
+                </div>
+
+
+
+                <button type="button" id="checkBtn">
+                    Analyze Score
+                </button>
+
+
+            </form>
+
+
+
+            <section id="result" class="result">
+
+                <h2>Your Result</h2>
+
+                <p id="scoreText">
+                    Complete the assessment to see your score.
+                </p>
+
+
+                <div class="progress-container">
+
+                    <div id="progressBar"></div>
+
+                </div>
+
+
+                <p id="feedback"></p>
+
+
+            </section>
+
+
+        </section>
+
+
+    </main>
+    
+    <footer class="footer">
+      <p>© 2026 Xnine Volt</p>
+    </footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

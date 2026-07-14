@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    min-height: 100vh;
+    background: #0f172a;
+    color: white;
+    font-family: "Inter", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Main layout */
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 20px;
+
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Main card */
+
+.card {
+    width: 100%;
+    background: #ffffff;
+    color: #111827;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+
+
+/* Header */
+
+h1 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.subtitle {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    color: #64748b;
+}
+
+
+
+/* Questions */
+
+.question {
+    margin-bottom: 25px;
+}
+
+
+.question p {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+
+label {
+    margin-right: 20px;
+
+    cursor: pointer;
+
+    color: #334155;
+}
+
+
+input {
+    margin-right: 5px;
+}
+
+
+
+/* Button */
+
+button {
+
+    width: 100%;
+
+    padding: 15px;
+
+    margin-top: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #facc15;
+
+    color: #111827;
+
+    font-size: 18px;
+
+    font-weight: 800;
+
+    cursor: pointer;
+
+    transition: transform 0.2s, background 0.2s;
+}
+
+
+
+button:hover {
+
+    transform: translateY(-3px);
+
+    background: #fde047;
+
+}
+
+
+
+/* Result section */
+
+.result {
+
+    margin-top: 35px;
+
+    text-align: center;
+
+    display: none;
+
+}
+
+
+
+.result h2 {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+/* Progress bar */
+
+.progress-container {
+
+    height: 20px;
+
+    width: 100%;
+
+    background: #e2e8f0;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    margin: 20px 0;
+
+}
+
+
+
+#progressBar {
+
+    height: 100%;
+
+    width: 0%;
+
+    background: #22c55e;
+
+    border-radius: inherit;
+
+    transition: width 1s ease;
+
+}
+
+
+
+/* Footer */
+
+.footer {
+
+    padding: 20px;
+
+    color: #94a3b8;
+
+    font-size: 14px;
+
+    text-align: center;
+
+}
